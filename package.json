@@ -2,7 +2,8 @@
   "name": "vccfly-guard",
   "version": "0.1.0",
   "private": true,
-  "description": "A standalone policy, audit, and x402 challenge demo for governed agent procurement on Arc.",
+  "license": "MIT",
+  "description": "An MIT-licensed standalone policy, budget, approval, and audit reference implementation for agent procurement on Arc.",
   "engines": {
     "node": ">=20"
   },
