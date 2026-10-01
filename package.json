@@ -1,0 +1,20 @@
+{
+  "name": "vccfly-guard",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "An MIT-licensed standalone policy, budget, approval, and audit reference implementation for agent procurement on Arc.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "tsx examples/arc-procurement-demo.ts",
+    "test": "tsx test/guard.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
