@@ -16,6 +16,14 @@ Hackathon and other Arc builders. It does not need a wallet, API key, database,
 or live funds. You may fork, modify, redistribute, and commercially reuse this
 repository under the MIT License.
 
+## Tameion submission comparison
+
+[Review the complete public demo diff](https://github.com/LeapTechLLC/VCCFly-Guard/compare/codex/tameion-baseline...codex/tameion-demo).
+These branches were packaged on October 2, 2026 using an explicitly empty
+baseline and a snapshot of the existing public Guard code. The original commit
+history remains on `main`. This comparison covers Guard only, not the private
+VCCFly application. See the [comparison provenance and scope](docs/tameion-submission.md).
+
 ## Run it
 
 Requirements: Node.js 20 or later.
